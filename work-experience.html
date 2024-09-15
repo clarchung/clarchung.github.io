@@ -28,11 +28,12 @@
   <header>
     <nav>
       <ul>
-        <li><a href="index.html">About Me</a></li>
-        <li><a href="work-experience.html">Work Experience</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="assignments.html">Assignments</a></li>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work-experience">Work Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#assignments">Assignments</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -44,7 +45,7 @@
         <h1 class="mb-2 mb-lg-0">Work Experience</h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="#home">Home</a></li>
             <li>Work Experience</li> <!-- Added breadcrumb level -->
           </ol>
         </nav>
@@ -52,7 +53,7 @@
     </div><!-- End Page Title -->
 
     <!-- Work Experience Section -->
-    <section class="container" data-aos="fade-up">
+    <section id="work-experience" class="container" data-aos="fade-up">
       <div class="work-experience">
         <h2>Professional Experience</h2>
         <div class="experience-item">
@@ -66,9 +67,39 @@
 
   </main>
 
+  <!-- Footer -->
+  <footer id="footer" class="footer accent-background">
+    <div class="container">
+      <div class="copyright text-center">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">DevFolio</strong> <span>All Rights Reserved</span></p>
+      </div>
+
+      <div class="credits">
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer>
+
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
     <i class="bi bi-arrow-up-short"></i>
   </a>
 
-  <!--
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
